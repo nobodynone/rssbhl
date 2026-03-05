@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@napi-rs/pinyin':
-    specifier: 1.7.1
-    version: 1.7.1
+    specifier: 1.7.3
+    version: 1.7.3
   '@vuepress/plugin-back-to-top':
     specifier: 1.9.9
     version: 1.9.9
@@ -11,8 +15,8 @@ dependencies:
     specifier: 1.9.9
     version: 1.9.9
   '@vuepress/plugin-pwa':
-    specifier: 1.9.9
-    version: 1.9.9
+    specifier: 1.9.10
+    version: 1.9.10
   '@vuepress/shared-utils':
     specifier: 1.9.9
     version: 1.9.9
@@ -33,7 +37,7 @@ dependencies:
     version: 2.2.0
   remark-preset-prettier:
     specifier: 0.5.1
-    version: 0.5.1(prettier@2.8.8)
+    version: 0.5.1(prettier@3.8.1)
   remark-stringify:
     specifier: 9.0.1
     version: 9.0.1
@@ -90,7 +94,7 @@ packages:
       debug: 4.3.4(supports-color@6.1.0)
       gensync: 1.0.0-beta.2
       json5: 2.2.3
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -131,7 +135,7 @@ packages:
       '@babel/helper-validator-option': 7.21.0
       browserslist: 4.21.5
       lru-cache: 5.1.1
-      semver: 6.3.0
+      semver: 6.3.1
     dev: false
 
   /@babel/helper-create-class-features-plugin@7.21.4(@babel/core@7.21.4):
@@ -175,7 +179,7 @@ packages:
       debug: 4.3.4(supports-color@6.1.0)
       lodash.debounce: 4.0.8
       resolve: 1.22.2
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1036,7 +1040,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.3.3(@babel/core@7.21.4)
       babel-plugin-polyfill-corejs3: 0.6.0(@babel/core@7.21.4)
       babel-plugin-polyfill-regenerator: 0.4.1(@babel/core@7.21.4)
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1194,7 +1198,7 @@ packages:
       babel-plugin-polyfill-corejs3: 0.6.0(@babel/core@7.21.4)
       babel-plugin-polyfill-regenerator: 0.4.1(@babel/core@7.21.4)
       core-js-compat: 3.30.1
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1216,11 +1220,9 @@ packages:
     resolution: {integrity: sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==}
     dev: false
 
-  /@babel/runtime@7.21.0:
-    resolution: {integrity: sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==}
+  /@babel/runtime@7.28.6:
+    resolution: {integrity: sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==}
     engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.11
     dev: false
 
   /@babel/template@7.20.7:
@@ -1333,8 +1335,8 @@ packages:
       glob-to-regexp: 0.3.0
     dev: false
 
-  /@napi-rs/pinyin-android-arm-eabi@1.7.1:
-    resolution: {integrity: sha512-Dhvhz3qm3SJoPQUd2wEnUFQH0OizjBkUQOEGPcyGIpwbdyS5tVppxuAC7dO+iUh9F/uvhtKwoibDdLiupqdptw==}
+  /@napi-rs/pinyin-android-arm-eabi@1.7.3:
+    resolution: {integrity: sha512-f226fq2VP/Tj6ir/PHIWye9AtLYiiN9JQsMS0VYuLENDGAK7eEMz8Mep14Bz/4k5njXyN5yxthrurgk2zg+lNA==}
     engines: {node: '>= 10.0'}
     cpu: [arm]
     os: [android]
@@ -1342,8 +1344,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-android-arm64@1.7.1:
-    resolution: {integrity: sha512-h+qYBRDu7mUkKiOPRaZmNUPdlxfbURUggKqncYUlV2TmHAALfoPBPoT3DD8ClQXVax1eYp4UWSloRA3hUxFLcQ==}
+  /@napi-rs/pinyin-android-arm64@1.7.3:
+    resolution: {integrity: sha512-SUtj+utc+IYOWjGiRnZlMFp55zfKEyGbmTRxDD47ZWta+CJ6LtMgiXqyNle9ceI7vi9RmW89MqezOC0LnbhV9g==}
     engines: {node: '>= 10.0'}
     cpu: [arm64]
     os: [android]
@@ -1351,8 +1353,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-darwin-arm64@1.7.1:
-    resolution: {integrity: sha512-5NYFZT6PtBtO02N23vG1pcCGnDlwjlYFaq7I/V6pbI5reGDzP6Xg1TqnK635jb0AgC2yM9ojjBfR5kJYViPQTQ==}
+  /@napi-rs/pinyin-darwin-arm64@1.7.3:
+    resolution: {integrity: sha512-/DScnPht9S0vVBuIQolh1sNEZuBQARIslyEILKs9CG3nNXjKpEYeExg1YsNu2VDdHjspUVKbw/Qdq5cP830ndA==}
     engines: {node: '>= 10.0'}
     cpu: [arm64]
     os: [darwin]
@@ -1360,8 +1362,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-darwin-x64@1.7.1:
-    resolution: {integrity: sha512-xomDqZC7qAmBCAqPPKgvhJRUreCgVLIa7KHdP1kMq3iOJD99ZoV9fkf8EHP54Ia5zNxUVgGSUOcEA8BwLwT1ig==}
+  /@napi-rs/pinyin-darwin-x64@1.7.3:
+    resolution: {integrity: sha512-jkIdx9hTCsXL0h3E6N/qVEy80SfaxHpLhw0ETva0AAdG6kmXNPe/blV5/rYickgjhv7ExaHr7GjO9W5RYpB2Qw==}
     engines: {node: '>= 10.0'}
     cpu: [x64]
     os: [darwin]
@@ -1369,8 +1371,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-freebsd-x64@1.7.1:
-    resolution: {integrity: sha512-nGZhpA2vyTWPKguGFKMWUo8zFwPhgwNyVqVDF6T+djgzi6VKr3IUQHX5vs2lWyQixPxkrq4oxPHISvy+nHyrcg==}
+  /@napi-rs/pinyin-freebsd-x64@1.7.3:
+    resolution: {integrity: sha512-holrKDL7uz2FUSSHmA8brKgiuKetK/Z028ExB+QVEwNWUMIbHz4V1C5JAD9cy7NKoskk5TLBl8ex2YXu/Z4CVA==}
     engines: {node: '>= 10.0'}
     cpu: [x64]
     os: [freebsd]
@@ -1378,8 +1380,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-linux-arm-gnueabihf@1.7.1:
-    resolution: {integrity: sha512-PfCuDa8S0Zh2QSOoVnowlHb7j/XkaZtRDq7GoqS7Hy4cuXDM00pHVclh9C5RfbEPQ8Nefz9ryeyYItYxaRt7Qg==}
+  /@napi-rs/pinyin-linux-arm-gnueabihf@1.7.3:
+    resolution: {integrity: sha512-dUSnDwTEVJDCCsoggrmbfIhz3iC7j3Ga5sTUCXAgUMSqS6f+bKXSCBHO3Nl1IgJa5lUVO/LsOK+izfmNGeKQbQ==}
     engines: {node: '>= 10.0'}
     cpu: [arm]
     os: [linux]
@@ -1387,8 +1389,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-linux-arm64-gnu@1.7.1:
-    resolution: {integrity: sha512-ay+tonSYDRhJDy95fRtXsu5wDyMcf3v2qxqVKG69ly8PW2ekbGTKLSJILJbhFx5NOwyB6DcmiFZvZQqlpaWNKQ==}
+  /@napi-rs/pinyin-linux-arm64-gnu@1.7.3:
+    resolution: {integrity: sha512-D+cVO03GKIcUubLt+u6VzpqozuMeZkRvYPMmn0JEugq0tVzwthC3Jva9Cwj/w6D/KMSoZsUY+PBDUKRh0X7qiw==}
     engines: {node: '>= 10.0'}
     cpu: [arm64]
     os: [linux]
@@ -1396,8 +1398,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-linux-arm64-musl@1.7.1:
-    resolution: {integrity: sha512-wR3FOgewIoGeB9HsGqB2AZBzC+G1QKviPSG9BD5joXSsffcekhG47/aWvy4bnILF1gCDf1SGDo4o4WMRlpD+oQ==}
+  /@napi-rs/pinyin-linux-arm64-musl@1.7.3:
+    resolution: {integrity: sha512-SY2nOt7xD9jnIN1yuXpNvk1XMjqTzh2au5y3K13Vac7ffRh8yAH1QN3vvBPLxvnJdL/U4eQi4gn25wK5sm/DLQ==}
     engines: {node: '>= 10.0'}
     cpu: [arm64]
     os: [linux]
@@ -1405,8 +1407,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-linux-x64-gnu@1.7.1:
-    resolution: {integrity: sha512-p+S9kmdZlTtv4UVpCoyhHZRZ7WcuHY5OOAniWoBn9S3pq2ac8ptX9zvZkqwJ4jUvaeoXOQKqKNQnJTw05ECfSA==}
+  /@napi-rs/pinyin-linux-x64-gnu@1.7.3:
+    resolution: {integrity: sha512-/1kLQAG3yH50Tfs5yr+acktwqePTJpkI0eXK9LQugqaiRMBPd76Uz9edAitYoFhngeBOYrjiOi/7rWexRg4Pmw==}
     engines: {node: '>= 10.0'}
     cpu: [x64]
     os: [linux]
@@ -1414,8 +1416,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-linux-x64-musl@1.7.1:
-    resolution: {integrity: sha512-qfpbsIHw9wdzdm6YyrUhgKwCyHl4eutOIcJDWRZcvVeuxaFwaYiSTyhn57uMCVkk/M4zTLFW+iUZra6a9tDw/g==}
+  /@napi-rs/pinyin-linux-x64-musl@1.7.3:
+    resolution: {integrity: sha512-egzCq/Jf6lzh3yYgUgo24f66UdYHoVv3TRcIkzN7j6BZ3pvNkBOc5HXDXlqoxeZ8aNX5J3rBE041bGyzX6qFHg==}
     engines: {node: '>= 10.0'}
     cpu: [x64]
     os: [linux]
@@ -1423,8 +1425,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-win32-arm64-msvc@1.7.1:
-    resolution: {integrity: sha512-MNorAzMFmmPxqq3pzJGQ11fV/cGuKD8AQfZ2r0es32+4oQX/Ke6HF1CRr1ijG9ERyhCz1H0U4BnjUTwadpjjcQ==}
+  /@napi-rs/pinyin-win32-arm64-msvc@1.7.3:
+    resolution: {integrity: sha512-smztMp+PiDdQYP9QVMsbVTthZ0KHIah7VkMtCzwJoTKCY6uvTBoBepAnJfQVYqDojhIwWSjaYBRvxdUh5o79Uw==}
     engines: {node: '>= 10.0'}
     cpu: [arm64]
     os: [win32]
@@ -1432,8 +1434,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-win32-ia32-msvc@1.7.1:
-    resolution: {integrity: sha512-LraMduh848NTS+EpVRI8ufCWoCucbDOyq8GL874aaKL514xqMSgRWaPMEz7WkDE0R/8egpJK9eA6N7pDBpF92w==}
+  /@napi-rs/pinyin-win32-ia32-msvc@1.7.3:
+    resolution: {integrity: sha512-TsuzwJPbgQI9pKRoUzHJsPwIkwk1ZRT8AaaZ9gJlBbnW8srX2YZfYk5EACtfqROGhG+hRZIMBmdw+03FhjUsEA==}
     engines: {node: '>= 10.0'}
     cpu: [ia32]
     os: [win32]
@@ -1441,8 +1443,8 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin-win32-x64-msvc@1.7.1:
-    resolution: {integrity: sha512-W5hKb0AusXieCDot4O1SOTee1u46vKkHZ/vhdJqudzSubNmb6mQgMxSxPkfLMEvm+1hchOzrwVO0xCVtrLW1bw==}
+  /@napi-rs/pinyin-win32-x64-msvc@1.7.3:
+    resolution: {integrity: sha512-8+7/7gX1Lv97Ces1siboLepLsrG74lpgJvdxmjvTbeWeMpa9T6i4VOe13yO2qzdHhPeWiMlWNpu9n/Jfv2FHFw==}
     engines: {node: '>= 10.0'}
     cpu: [x64]
     os: [win32]
@@ -1450,30 +1452,30 @@ packages:
     dev: false
     optional: true
 
-  /@napi-rs/pinyin@1.7.1:
-    resolution: {integrity: sha512-+Mutbfd28IPXFqK1MQIhzVn1riPuKPVDDfRvn1aN1o17xmWShE5orRr43UFdVVAsnagrgT9yvbXeAS7GwUYGZw==}
+  /@napi-rs/pinyin@1.7.3:
+    resolution: {integrity: sha512-mKELuij+eNyLi2tIZP7aC718TBDUEBBag6sKoQ7BdJd9ICZt9vS4I6sFglBCCAI1K6ytP0pQEi6X6Y5TkVOmrw==}
     engines: {node: '>= 10.0'}
     requiresBuild: true
     dependencies:
-      '@napi-rs/triples': 1.1.0
+      '@napi-rs/triples': 1.2.0
     optionalDependencies:
-      '@napi-rs/pinyin-android-arm-eabi': 1.7.1
-      '@napi-rs/pinyin-android-arm64': 1.7.1
-      '@napi-rs/pinyin-darwin-arm64': 1.7.1
-      '@napi-rs/pinyin-darwin-x64': 1.7.1
-      '@napi-rs/pinyin-freebsd-x64': 1.7.1
-      '@napi-rs/pinyin-linux-arm-gnueabihf': 1.7.1
-      '@napi-rs/pinyin-linux-arm64-gnu': 1.7.1
-      '@napi-rs/pinyin-linux-arm64-musl': 1.7.1
-      '@napi-rs/pinyin-linux-x64-gnu': 1.7.1
-      '@napi-rs/pinyin-linux-x64-musl': 1.7.1
-      '@napi-rs/pinyin-win32-arm64-msvc': 1.7.1
-      '@napi-rs/pinyin-win32-ia32-msvc': 1.7.1
-      '@napi-rs/pinyin-win32-x64-msvc': 1.7.1
+      '@napi-rs/pinyin-android-arm-eabi': 1.7.3
+      '@napi-rs/pinyin-android-arm64': 1.7.3
+      '@napi-rs/pinyin-darwin-arm64': 1.7.3
+      '@napi-rs/pinyin-darwin-x64': 1.7.3
+      '@napi-rs/pinyin-freebsd-x64': 1.7.3
+      '@napi-rs/pinyin-linux-arm-gnueabihf': 1.7.3
+      '@napi-rs/pinyin-linux-arm64-gnu': 1.7.3
+      '@napi-rs/pinyin-linux-arm64-musl': 1.7.3
+      '@napi-rs/pinyin-linux-x64-gnu': 1.7.3
+      '@napi-rs/pinyin-linux-x64-musl': 1.7.3
+      '@napi-rs/pinyin-win32-arm64-msvc': 1.7.3
+      '@napi-rs/pinyin-win32-ia32-msvc': 1.7.3
+      '@napi-rs/pinyin-win32-x64-msvc': 1.7.3
     dev: false
 
-  /@napi-rs/triples@1.1.0:
-    resolution: {integrity: sha512-XQr74QaLeMiqhStEhLn1im9EOMnkypp7MZOwQhGzqp2Weu5eQJbpPxWxixxlYRKWPOmJjsk6qYfYH9kq43yc2w==}
+  /@napi-rs/triples@1.2.0:
+    resolution: {integrity: sha512-HAPjR3bnCsdXBsATpDIP5WCrw0JcACwhhrwIAQhiR46n+jm+a2F8kBsfseAuWtSyQ+H3Yebt2k43B5dy+04yMA==}
     dev: false
 
   /@nodelib/fs.stat@1.1.3:
@@ -1726,13 +1728,13 @@ packages:
       '@babel/plugin-syntax-jsx': 7.21.4(@babel/core@7.21.4)
       '@babel/plugin-transform-runtime': 7.21.4(@babel/core@7.21.4)
       '@babel/preset-env': 7.21.4(@babel/core@7.21.4)
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.28.6
       '@vue/babel-plugin-jsx': 1.1.1(@babel/core@7.21.4)
       '@vue/babel-preset-jsx': 1.4.0(@babel/core@7.21.4)(vue@2.7.14)
       babel-plugin-dynamic-import-node: 2.3.3
       core-js: 3.30.1
       core-js-compat: 3.30.1
-      semver: 6.3.0
+      semver: 6.3.1
       vue: 2.7.14
     transitivePeerDependencies:
       - supports-color
@@ -2073,11 +2075,11 @@ packages:
       - debug
     dev: false
 
-  /@vuepress/plugin-pwa@1.9.9:
-    resolution: {integrity: sha512-69kTlTl/mdWSD/+odz73oXvi2SuT8GO+e7YlPZFloeZR3kffC6ywYMip6m4MOalKOSUf0XzD3hCqCNVha6vo8Q==}
+  /@vuepress/plugin-pwa@1.9.10:
+    resolution: {integrity: sha512-pP3CUYKyIpnePswZGj9sBHJUzOczSmWSkmdoJftEnsBQT10YycJ81khS9WKEGPbTurbCOCCXsOzaEqCLysyYaA==}
     dependencies:
-      '@vuepress/shared-utils': 1.9.9
-      '@vuepress/types': 1.9.9
+      '@vuepress/shared-utils': 1.9.10
+      '@vuepress/types': 1.9.10
       register-service-worker: 1.7.2
       workbox-build: 4.3.1
     transitivePeerDependencies:
@@ -2101,6 +2103,22 @@ packages:
       '@vuepress/types': 1.9.9
     transitivePeerDependencies:
       - debug
+    dev: false
+
+  /@vuepress/shared-utils@1.9.10:
+    resolution: {integrity: sha512-M9A3DocPih+V8dKK2Zg9FJQ/f3JZrYsdaM/vQ9F48l8bPlzxw5NvqXIYMK4kKcGEyerQNTWCudoCpLL5uiU0hg==}
+    dependencies:
+      chalk: 2.4.2
+      escape-html: 1.0.3
+      fs-extra: 7.0.1
+      globby: 9.2.0
+      gray-matter: 4.0.3
+      hash-sum: 1.0.2
+      semver: 6.3.1
+      toml: 3.0.0
+      upath: 1.2.0
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /@vuepress/shared-utils@1.9.9:
@@ -2135,6 +2153,16 @@ packages:
     transitivePeerDependencies:
       - debug
       - supports-color
+    dev: false
+
+  /@vuepress/types@1.9.10:
+    resolution: {integrity: sha512-TDNQn4og85onmBpLTTXXmncW3rUnYGr2MkuI8OIFJZetDNM49t1WbjNVlrT+kx7C6qXi6okDQgrHGYXajHZWfg==}
+    dependencies:
+      '@types/markdown-it': 10.0.3
+      '@types/webpack-dev-server': 3.11.6
+      webpack-chain: 6.5.1
+    transitivePeerDependencies:
+      - debug
     dev: false
 
   /@vuepress/types@1.9.9:
@@ -2353,7 +2381,7 @@ packages:
       object-keys: 1.1.1
       querystring-es3: 0.2.1
       reduce: 1.0.2
-      semver: 5.7.1
+      semver: 5.7.2
       tunnel-agent: 0.6.0
     transitivePeerDependencies:
       - supports-color
@@ -2635,7 +2663,7 @@ packages:
       '@babel/compat-data': 7.21.4
       '@babel/core': 7.21.4
       '@babel/helper-define-polyfill-provider': 0.3.3(@babel/core@7.21.4)
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2737,6 +2765,7 @@ packages:
   /binary-extensions@2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -3151,8 +3180,8 @@ packages:
       - supports-color
     dev: false
 
-  /chokidar@3.5.3:
-    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
+  /chokidar@3.6.0:
+    resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
     requiresBuild: true
     dependencies:
@@ -3164,7 +3193,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
     optional: true
 
@@ -3685,7 +3714,7 @@ packages:
     dependencies:
       nice-try: 1.0.5
       path-key: 2.0.1
-      semver: 5.7.1
+      semver: 5.7.2
       shebang-command: 1.2.0
       which: 1.3.1
     dev: false
@@ -4837,6 +4866,7 @@ packages:
   /fill-range@7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       to-regex-range: 5.0.1
     dev: false
@@ -4999,16 +5029,16 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+    deprecated: Upgrade to fsevents v2 to mitigate potential security issues
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
-      nan: 2.17.0
+      nan: 2.25.0
     dev: false
     optional: true
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -5098,6 +5128,7 @@ packages:
   /glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
+    requiresBuild: true
     dependencies:
       is-glob: 4.0.3
     dev: false
@@ -5733,6 +5764,7 @@ packages:
   /is-binary-path@2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       binary-extensions: 2.2.0
     dev: false
@@ -5912,6 +5944,7 @@ packages:
   /is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
+    requiresBuild: true
     dev: false
 
   /is-obj@1.0.1:
@@ -6309,6 +6342,7 @@ packages:
 
   /lodash.template@4.5.0:
     resolution: {integrity: sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==}
+    deprecated: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
     dependencies:
       lodash._reinterpolate: 3.0.0
       lodash.templatesettings: 4.2.0
@@ -6369,14 +6403,14 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       pify: 4.0.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
     dependencies:
-      semver: 6.3.0
+      semver: 6.3.1
     dev: false
 
   /map-cache@0.2.2:
@@ -6844,8 +6878,8 @@ packages:
       thunky: 1.1.0
     dev: false
 
-  /nan@2.17.0:
-    resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+  /nan@2.25.0:
+    resolution: {integrity: sha512-0M90Ag7Xn5KMLLZ7zliPWP3rT90P6PN+IzVFS0VqmnPktBk3700xUVv8Ikm9EUaUE5SDWdp/BIxdENzVznpm1g==}
     requiresBuild: true
     dev: false
     optional: true
@@ -7195,7 +7229,7 @@ packages:
       got: 9.6.0
       registry-auth-token: 4.2.2
       registry-url: 5.1.0
-      semver: 6.3.0
+      semver: 6.3.1
     dev: false
 
   /pako@1.0.11:
@@ -7744,6 +7778,14 @@ packages:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: false
 
   /pretty-bytes@5.6.0:
@@ -7975,6 +8017,7 @@ packages:
   /readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
+    requiresBuild: true
     dependencies:
       picomatch: 2.3.1
     dev: false
@@ -8001,14 +8044,10 @@ packages:
     resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
     dev: false
 
-  /regenerator-runtime@0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
-    dev: false
-
   /regenerator-transform@0.15.1:
     resolution: {integrity: sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==}
     dependencies:
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.28.6
     dev: false
 
   /regex-not@1.0.2:
@@ -8103,13 +8142,13 @@ packages:
       - supports-color
     dev: false
 
-  /remark-preset-prettier@0.5.1(prettier@2.8.8):
+  /remark-preset-prettier@0.5.1(prettier@3.8.1):
     resolution: {integrity: sha512-cJx49HCHwA/3EWjIDiRTWPBBpGSkJlXOpcjdqcT6rGFFE+gjCrGSbNdgBQiLbBqXippZFD0OrI4bOWsWhulKrw==}
     engines: {node: '>=12'}
     peerDependencies:
       prettier: '>=1.0.0'
     dependencies:
-      prettier: 2.8.8
+      prettier: 3.8.1
     dev: false
 
   /remark-stringify@9.0.1:
@@ -8342,16 +8381,21 @@ packages:
     resolution: {integrity: sha512-GX0Ix/CJcHyB8c4ykpHGIAvLyOwOobtM/8d+TQkAd81/bEjgPHrfba41Vpesr7jX/t8Uh+R3EX9eAS5be+jQYg==}
     engines: {node: '>=8'}
     dependencies:
-      semver: 6.3.0
+      semver: 6.3.1
     dev: false
 
-  /semver@5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+  /semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
     dev: false
 
   /semver@6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
+    hasBin: true
+    dev: false
+
+  /semver@6.3.1:
+    resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
     dev: false
 
@@ -8881,7 +8925,7 @@ packages:
       mkdirp: 1.0.4
       safer-buffer: 2.1.2
       sax: 1.2.4
-      semver: 6.3.0
+      semver: 6.3.1
       source-map: 0.7.4
     transitivePeerDependencies:
       - supports-color
@@ -9043,6 +9087,7 @@ packages:
   /to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
+    requiresBuild: true
     dependencies:
       is-number: 7.0.0
     dev: false
@@ -9737,7 +9782,7 @@ packages:
       graceful-fs: 4.2.11
       neo-async: 2.6.2
     optionalDependencies:
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       watchpack-chokidar2: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -9759,6 +9804,7 @@ packages:
 
   /webpack-chain@4.12.1:
     resolution: {integrity: sha512-BCfKo2YkDe2ByqkEWe1Rw+zko4LsyS75LVr29C6xIrxAg9JHJ4pl8kaIZ396SUSNp6b4815dRZPSTAS8LlURRQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       deepmerge: 1.5.2
       javascript-stringify: 1.6.0
@@ -9818,7 +9864,7 @@ packages:
       portfinder: 1.0.32(supports-color@6.1.0)
       schema-utils: 1.0.0
       selfsigned: 1.10.14
-      semver: 6.3.0
+      semver: 6.3.1
       serve-index: 1.9.1(supports-color@6.1.0)
       sockjs: 0.3.24
       sockjs-client: 1.6.1(supports-color@6.1.0)
@@ -10003,7 +10049,7 @@ packages:
     resolution: {integrity: sha512-UHdwrN3FrDvicM3AqJS/J07X0KXj67R8Cg0waq1MKEOqzo89ap6zh6LmaLnRAjpB+bDIz+7OlPye9iii9KBnxw==}
     engines: {node: '>=4.0.0'}
     dependencies:
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.28.6
       '@hapi/joi': 15.1.1
       common-tags: 1.8.2
       fs-extra: 4.0.3
@@ -10046,6 +10092,7 @@ packages:
 
   /workbox-google-analytics@4.3.1:
     resolution: {integrity: sha512-xzCjAoKuOb55CBSwQrbyWBKqp35yg1vw9ohIlU2wTy06ZrYfJ8rKochb1MSGlnoBfXGWss3UPzxR5QL5guIFdg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 4.3.1
       workbox-core: 4.3.1
